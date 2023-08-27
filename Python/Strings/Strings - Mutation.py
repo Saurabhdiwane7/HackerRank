@@ -1,9 +1,8 @@
 # Q =https://www.hackerrank.com/challenges/python-mutations/problem?isFullScreen=true&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen
 
 def mutate_string(string, position, character):
-    a = str(string)
     l = list(string)
-    l[position] = "k"
+    l[position] = character
     a = "".join(l)
     return a
 
